@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+:root{
+
+    --cor001: #1B2223;
+    --cor002: #3A4F50;
+    --cor003: #03836b;
+    --cor004: #F4FEFD;
+    
+}
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header{
+
+    text-align: center;
+    box-shadow: 0px 2px 4px black;
+    margin: 0px 0px 10px 0px;
+    padding: 25px;
+
+    text-shadow: 0px 2px 4px black;
+    color: var(--cor004);
+    background-image: linear-gradient(to bottom, var(--cor003), var(--cor001));
+    
+}
+
+body{
+
+    background-color: var(--cor002);
+
+}
+
+#quemsoueu{
+
+    box-shadow: 0px 3px 5px black;
+
+    background-color: var(--cor001);
+
+    border-radius: 10px;
+    border: solid;
+
+    min-width: 10px;
+    min-height: 90px;
+    max-width: 500px;
+
+    margin: 8px auto;
+
+}
+
+#quemsoueu h2{
+
+    text-align: center;
+
+    box-shadow: 0px 3px 5px black;
+    margin: 5px 20px 5px 20px;
+    background-color: var(--cor002);
+
+    border-radius: 0px 10px 0px 0px;
+    color: var(--cor004);
+
+}
+
+img{
+    display: block;
+    margin: 5px auto 5px;
+    max-width: 120px;
+
+    border: solid;
+    border-radius: 40px;
+    background-color: var(--cor001);
+    box-shadow: 0px 3px 5px black;
+}
+
+#quemsoueu p{
+
+    box-shadow: 0px 3px 5px black;
+
+    margin: 5px 20px 5px 20px;
+    border-radius: 0px 0px 10px 0px;
+
+    background-color: var(--cor002);
+    color: var(--cor004);
+
+}
+
+#interesses{
+
+    background-color: var(--cor001);
+
+    box-shadow: 0px 3px 5px black;
+    border: solid;
+    border-radius: 10px;
+
+    min-width: 10px;
+    min-height: 150px;
+    max-width: 500px;
+
+    margin: 8px auto;
+
+}
+
+#interesses h2{
+
+    background-color: var(--cor002);
+    color: var(--cor004);
+
+    box-shadow: 0px 3px 5px black;
+    border-radius: 0px 10px 0px 0px;
+    text-align: center;
+    margin: 5px 20px 5px 20px;
+
+}
+
+#hobbies{
+
+    box-shadow: 0px 3px 5px black;
+    margin: 0px 20px;
+
+    background-color: var(--cor002);
+    color: var(--cor004);
+
+}
+
+#esportes{
+
+    margin: 0px 20px 5px ;
+
+    background-color: var(--cor002);
+    color: var(--cor004);
+
+    border-radius: 0px 0px 10px 0px;
+
+}
+
+#cursos{
+    box-shadow: 0px 3px 5px;
+
+    background-color: var(--cor001);
+
+    border: solid;
+    border-radius: 10px;
+
+    min-width: 10px;
+    min-height: 40px;
+    max-width: 500px;
+    margin: 8px auto;
+}
+
+#cursos h2{
+
+    box-shadow: 0px 3px 5px black;
+    text-align: center;
+    margin: 5px 20px 5px 20px;
+    border-radius: 0px 10px 0px 0px;
+
+    background-color: var(--cor002);
+    color: var(--cor004);
+
+}
+
+#cursos p{
+
+    margin: 5px 20px 5px 20px;
+    border-radius: 0px 0px 10px;
+
+    background-color: var(--cor002);
+    color: var(--cor004);
+    box-shadow: 0px 3px 5px black;
+
+}
+
+footer{
+
+    text-align: center;
+    box-shadow: 0px 3px 5px black;
+    margin: 10px 0px;
+
+    background-color: var(--cor001);
+    color: var(--cor004);
+
+}

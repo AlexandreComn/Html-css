@@ -1,0 +1,14 @@
+@font-face {
+    font-family:'vars';
+    src: url("varsity_regular.ttf") format('truetype');
+    font-weight: normal;
+}
+
+body{
+    font-family: vars;
+    font-weight: normal;
+}
+h1{
+    font-family: vars;
+    font-weight: normal;
+}

@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+:root{
+    --cor001: #ccff33;
+    --cor002: #9ef01a;
+    --cor003: #70e000;
+    --cor004: #38b000;
+    --cor005: #366b36;
+    --cor008: #204d20;
+    --cor006: #ffffff;
+    --cor007: #000000;
+}
+
+*{
+    margin: 0px;
+    border: 0px;
+}
+
+
+body{
+
+    background-color: var(--cor006);
+
+    /*background-image: linear-gradient(to right, var(--cor005), var(--cor004), var(--cor005));*/
+}
+
+header{
+
+    min-width: 350px;
+
+    text-align: center;
+
+    padding: 10px 10px 20px 10px;
+
+    font-size: 30px;
+
+    font-family: 'Abril Fatface', cursive;
+
+    background-color: var(--cor007);
+    
+}
+
+header img{
+
+    padding: 40px 0px 0px 0px;
+
+    display: inline-block;
+
+    max-width: 150px;
+
+    margin: auto;
+
+}
+
+header > p{
+
+    margin-top: 20px;
+
+    color: var(--cor003);
+
+    font-size: 15px;
+    text-align: center;
+
+}
+
+nav{
+
+    border-top: solid;
+
+    font-size: 19px;
+    text-align: center;
+
+    background-color: var(--cor005);
+
+    padding: 10px;
+
+    word-wrap: break-word; 
+    min-width: 350px;
+
+}
+
+nav > a {
+
+    text-decoration: underline overline;
+    color: var(--cor006);
+
+
+    border-radius: 10px;
+}
+
+nav > a:hover{
+
+    border: solid;
+    background-color: var(--cor004);
+
+}
+
+#orquidea1 img{
+
+    display: inline-block;
+
+    border: solid;
+
+    max-width: 200px;
+    max-height: 300px;
+
+    margin: 10px 10px 0px 10px;
+    
+}
+
+#name1{
+
+    margin: 0px 15px;
+
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+#preço1{
+
+.preço1{
+
+    display: inline-block;
+
+    margin: 0px 0px 0px 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+.delpreço1{
+
+    display: inline-block;
+
+    margin: 5px 0px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(90, 88, 88);
+
+    font-size: 15px;
+
+}
+
+}
+
+#btComprar{
+    margin: 10px 10px 90px;
+    background-color: var(--cor005);
+    border: solid black;
+    display: inline-block;
+
+}
+
+#btComprar > p{
+    font-size: 25px;
+    margin: 0px 10px ;
+
+}
+
+#btComprar:hover{
+    background-color: var(--cor008);
+}
+
+#orquidea2 img{
+
+    display: inline-block;
+
+    border: solid;
+
+    max-width: 200px;
+    max-height: 300px;
+
+    margin: 10px 10px 0px 10px;
+    
+}
+
+
+
+
+
+
+
+

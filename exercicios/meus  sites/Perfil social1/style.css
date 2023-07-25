@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+:root{
+
+    --cor001: #1B2223;
+    --cor002: #3A4F50;
+    --cor003: #03836b;
+    --cor004: #F4FEFD;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+
+}
+
+body{
+    background-color: var(--cor002);
+}
+
+
+header{
+    text-align: center;
+
+    padding: 20px;
+
+    background-image: linear-gradient(to bottom, var(--cor003), var(--cor001) );
+}
+
+header > h1{
+    font-size: 40px;
+    font-family: sans-serif;
+
+    color: var(--cor004);
+
+}
+
+header > p{
+    font-size: 20px;
+    font-family: sans-serif;
+
+    color: var(--cor004);
+}
+
+img{
+    min-width: 150px;
+    display: block;
+    margin: 10px auto;
+
+    border: solid;
+    border-radius: 50px;
+    background-color: var(--cor001);
+
+}
+
+#quemsoueu{
+    background-color: var(--cor001);
+    
+    margin: 10px;
+    border: solid;
+    border-radius: 10px;
+}
+
+#quemsoueu > h2{
+
+    margin: 5px 10px 3px;
+    border-radius: 0px 10px 0px 0px;
+
+    background-color: var(--cor002);
+    color: var(--cor004);
+
+}
+
+#quemsoueu > p{
+    margin: 3px 10px 5px ;
+    background-color: var(--cor002);
+    color: var(--cor004);
+    border-radius: 0px 0px 10px 0px;
+}
+
+#interesses{
+    border: solid;
+    background-color: var(--cor001);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#interesses > h2{
+    margin: 5px 10px 3px;
+    color: var(--cor004);
+    background-color: var(--cor002);
+    border-radius: 0px 10px 0px 0px;
+
+}
+
+.hobbies{
+    margin: 5px 10px 0px;
+    background-color: var(--cor002);
+    color: var(--cor004);
+
+}
+
+.esporte{
+    margin: 0px 10px 5px;
+    background-color: var(--cor002);
+    border-radius: 0px 0px 10px 0px;
+    color: var(--cor004);
+
+}
+
+#cursos{
+    border: solid;
+    margin: 10px;
+    background-color: var(--cor001);
+    border-radius: 10px;
+
+}
+
+#cursos > h2{
+    background-color: var(--cor002);
+    color: var(--cor004);
+    margin: 5px 10px 3px;
+    border-radius: 0px 10px 0px 0px;
+}
+
+#cursos > p{
+    background-color: var(--cor002);
+    color: var(--cor004);
+    margin: 3px 10px 5px;
+    border-radius: 0px 0px 10px 0px;
+}
+
+footer{
+    background-color: var(--cor001);
+    color: var(--cor004);
+    margin: 10px 0px 5px 0px;
+    text-align: center;
+}
+
+* p{
+    padding: 5px;
+}
+
+* h2{
+    padding: 2px 5px;
+}
+
+*:not(.hobbies):not(.text):not(.esporte) {
+
+    box-shadow: 2px 2px 7px black;
+    
+  }
