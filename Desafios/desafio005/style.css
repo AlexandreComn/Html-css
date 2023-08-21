@@ -17,10 +17,12 @@ body{
 
 h1{
     color: white;
+    text-align: center;
 }
 
 h2{
     color: white;
+    text-align: center;
 }
 
 p{
@@ -35,4 +37,7 @@ a{
     color: #006599;
 }
 
+#img{
+    text-align: center;
+}
 
