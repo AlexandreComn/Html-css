@@ -15,6 +15,7 @@
     font-size: 1em;
 }
 
+
 html, body{
 
     font-family: var(--font1);
@@ -61,6 +62,27 @@ section{
 
 }
 
+#img01{
+    background-image: url("../pacote-d012/imagens/background001.jpg");
+
+    background-position: right center;
+
+    background-size: cover;
+}
+
+#img02{
+    background-image: url("../pacote-d012/imagens/background002.jpg");
+
+    background-position: right center;
+
+    background-size: cover;
+
+}
+
+section > p{
+    padding: 1.5em;
+}
+
 .normal{
     background-color: white;
     color: black;
@@ -70,13 +92,21 @@ section{
     background-color: rgb(20, 18, 18);
     color: white;
 
+    text-shadow: 3px 2px 3px black;
+
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.807);
+
+    background-attachment: fixed;
+
 
 }
 
 .image > p{
-    background-color: rgba(0, 0, 0, 0.232);
+    background-color: rgba(0, 0, 0, 0.702);
     display: inline-block;
     padding: 5p;
+
+    box-shadow: 2px 2px 3px black;
 }
 
 footer{
